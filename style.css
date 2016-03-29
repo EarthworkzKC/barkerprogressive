@@ -1,3 +1,7 @@
 ---
 layout: style
 ---
+
+.navbar-brand {
+  padding: 0;
+}

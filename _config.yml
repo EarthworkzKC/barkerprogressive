@@ -15,8 +15,8 @@ color:
 # Team names, titles and social links
 people:
 - name: Kodi Pointdextor
-  pic: 1
-  position: Lead Designer
+  pic: kodi
+  position: Insurance Agent
   social:
     - title: twitter
       url: zachdyer
@@ -25,9 +25,9 @@ people:
     - title: stack-overflow
       url: #
 
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
+- name: Steve Barker
+  pic: steve
+  position: Insurance Agent
   social:
     - title: twitter
       url: #
