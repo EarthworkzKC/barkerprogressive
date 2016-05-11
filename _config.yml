@@ -14,7 +14,7 @@ color:
 
 # Team names, titles and social links
 people:
-- name: Kodi Pointdextor
+- name: Kodi Poindexter
   pic: kodi
   position: Insurance Agent
   social:
@@ -36,9 +36,19 @@ people:
     - title: linkedin
       url: #
 
-- name: Diana Petersen
+- name: Tammy McKnight
   pic: 3
-  position: Lead Developer
+  position: Agent
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+- name: Angela Holler
+  pic: 1
+  position: CSR
   social:
     - title: twitter
       url: #
