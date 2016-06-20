@@ -1,30 +1,16 @@
-Agency Jekyll theme
-====================
+# Modernist Theme
 
-Agency theme based on [Agency bootstrap theme ](http://startbootstrap.com/templates/agency/)
+[Demo the Theme](http://orderedlist.github.com/modernist/)
 
-# How to use
+This is the raw HTML and styles that are used for the *modernist* theme on [GitHub Pages](http://pages.github.com/).
 
-###Portfolio 
+# SCSS
 
-Portfolio projects are in '/_posts'
+This project uses SCSS for it's CSS. If you want to contribute, please make your changes to the .scss files in the /sass directory. If you're unfamiliar with SCSS, here's [an excellent article to get you started](http://www.alistapart.com/articles/getting-started-with-sass/). I recommend using [LiveReload](http://livereload.com)
 
-Images are in '/img/portfolio'
+Syntax highlighting is provided on GitHub Pages by [Pygments](http://pygments.org).
 
-###About
+# License
 
-Images are in '/img/about/'
+This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/).
 
-###Team
-
-Team members and info are in '_config.yml'
-
-Images are in '/img/team/'
-
-
-# Demo
-
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
-
-=========
-For more details, read [documentation](http://jekyllrb.com/)
