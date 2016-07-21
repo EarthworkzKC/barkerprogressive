@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>{{ site.title }} | {{ page.title }}</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header>
+        <img src="images/sitelogo.jpg" alt="Barker Progressive Insurance">
+        <p>{{ site.slogan }}</p>
+        <div id="contact">
+          <strong>Phone: <a href="tel:{{ site.phone }}">{{ site.phone }}</a></strong><br>
+          <strong>Fax: {{ site.fax }}</strong><br>
+          Email: <a href="mailto: {{ site.email }}">{{ site.email }}</a><br>
+          <ul>
+            <li><a href="contact"><strong>Contact Us</strong></a></li>
+          </ul>
+        </div>
+        <ul id="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services">Our Services</a></li>
+          <li><a href="faqs">FAQ's</a></li>
+          <li><a href="links">Helpful Links</a></li>
+          <li><a href="privacy">Privacy</a></li>
+          <li><a href="content">Contact</a></li>
+        </ul>
+      </header>
+      <section>
+        {{ content }}
+        <img src="images/footer_logos.png" alt="Insurance logos" class="banner" />
+      </section>
+    </div>
+    <footer>
+      <p>&copy; 2016 Barker Progressive Insurance</p>
+    </footer>
+    <script src="js/scale.fix.js"></script>
+  </body>
+
+</html>
