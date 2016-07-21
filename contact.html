@@ -1,0 +1,27 @@
+---
+title: Contact
+permalink: contact
+layout: default
+---
+
+<h1>Contact Us Form</h1>
+<p>
+  To contact us with questions, concerns or other issues, please fill out and submit this form. The required fields will give us the information required to contact you!
+</p>
+<form action="https://formspree.io/{{ site.email }}" method="POST">
+  <fieldset class="form-group">
+    <label for="name">Name:</label>
+    <input type="text" name="name" placeholder="Name" class="form-control">
+  </fieldset>
+  <fieldset class="form-group">
+    <label for="email">Email:</label>
+    <input type="email" name="_replyto" placeholder="Email" class="form-control">
+  </fieldset>
+  <fieldset class="form-group">
+    <label for="message">Message:</label>
+    <textarea name="message" rows="8" cols="40" placeholder="Message" class="form-control"></textarea>
+  </fieldset>
+    <input type="hidden" name="_next" value="thanks.html" />
+    <input type="text" name="_gotcha" style="display:none" />
+    <button type="submit" class="btn btn-primary" class="form-control">Send</button>
+</form>
