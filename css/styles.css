@@ -327,6 +327,13 @@ footer p {
 footer p + p {
   float: right;
 }
+.companies {
+  margin-top: 20px
+}
+.companies img{
+  max-width: 113px;
+  margin-right: 20px
+}
 
 @media print, screen and (max-width: 740px) {
   body {
